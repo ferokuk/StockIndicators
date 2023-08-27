@@ -1,0 +1,6 @@
+// xaml 'back' button
+	private void backButton_Click(object sender, RoutedEventArgs e)
+	{
+		// go back to the previous page
+		this.Frame.GoBack();
+	}

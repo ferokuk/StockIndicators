@@ -1,0 +1,3 @@
+// linq to filter empty rows in list
+            var filteredRows = rows.Where(r => !string.IsNullOrEmpty(r.Value)).ToList();
+            return filteredRows;

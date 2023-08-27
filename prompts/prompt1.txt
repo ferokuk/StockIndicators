@@ -1,0 +1,30 @@
+// xaml code of datagrid with beige background and centered positioned header and footer
+<DataGrid x:Name="dataGrid" Background="Beige" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <DataGrid.ColumnHeaderStyle>
+        <Style TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="LightBlue"/>
+             <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+    </DataGrid.ColumnHeaderStyle>
+    <DataGrid.RowHeaderStyle>
+        <Style TargetType="DataGridRowHeader">
+            <Setter Property="Background" Value="LightBlue"/>
+            <Setter Property="Horizontal  ContentAlignment" Value="Center"/>
+        </Style>
+    </DataGrid.RowHeaderStyle>
+    <DataGrid.CellStyle>
+        <Style TargetType="DataGridCell">
+            <Setter Property="Background" Value="LightBlue"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+         </Style>
+    </DataGrid.CellStyle>
+    <DataGrid.RowStyle>
+        <Style TargetType="DataGridRow">
+            <Setter Property="Background" Value="LightBlue"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+    </DataGrid.RowStyle> 
+</DataGrid>
+
+
+

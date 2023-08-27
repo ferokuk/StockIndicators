@@ -1,0 +1,18 @@
+﻿<Page x:Class="StockIndicators.WhatIsBOP"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:StockIndicators"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="800"
+      Title="WhatIsBOP" Background="White">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" FontFamily="Consolas" Width="753"><Run Text="The Balance of Power (BOP) indicator uses price to measure buying and selling pressure. It determines the "/><Run FontWeight="Bold" Text="strength"/><Run Text=" of the buyers and sellers by looking at how strongly the price has changed, rather than using "/><Run FontWeight="Bold" Text="volume"/><Run Text="."/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="0,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" FontFamily="Consolas" Width="753"><Run Text="Balance of Power indicators can have an "/><Run FontWeight="Bold" Text="immense"/><Run Text=" effect on trading, as they represent a clear cut and relatively simple method of identifying both the direction and extent of price change during a "/><Run FontWeight="Bold" Text="pre-defined"/><Run Text=" trading period."/></TextBlock>
+        <Label Content="Is BOP a good indicator?" HorizontalAlignment="Left" Margin="10,262,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <Label Content="What is BOP?" HorizontalAlignment="Left" Margin="10,125,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <Button Style="{DynamicResource RoundButton}" Content="Back" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="38" Width="76" Click="BackButton" Cursor="Hand"/>
+    </Grid>
+</Page>

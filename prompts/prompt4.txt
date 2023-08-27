@@ -1,0 +1,2 @@
+// remove empty rows in datagrid c# wpf
+//https://stackoverflow.com/questions/1361577/how-to-remove-empty-rows-in-datagrid-c-sharp-wpf

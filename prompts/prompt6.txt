@@ -1,0 +1,3 @@
+// convert double to string c# 6.0
+// https://stackoverflow.com/questions/1424908/how-to-convert-double-to-string-with-c-sharp-6-0
+public static string ToString(this double value) => value.ToString(CultureInfo.InvariantCulture

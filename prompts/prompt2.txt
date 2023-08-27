@@ -1,0 +1,8 @@
+// save entity in database with c# entity framework
+	public void save(T entity) {
+		try {
+			context.SaveChanges();
+		} catch (Exception e) {
+			throw new RuntimeException(e);
+		}
+	}

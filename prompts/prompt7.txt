@@ -1,0 +1,4 @@
+// get first n values from a List
+	public static <T> List<T> getFirstN(List<T> list, int n) {
+		return list.subList(0, n);
+	}
